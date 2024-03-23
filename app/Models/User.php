@@ -44,4 +44,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function bike()
+    {
+        return $this->hasone('App\Models\Bikes');
+    }
 }
