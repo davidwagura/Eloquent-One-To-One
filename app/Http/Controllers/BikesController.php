@@ -14,7 +14,7 @@ class BikesController extends Controller
     {
 
         $user_1_bike = User::find(1)->bike;
-        $user_3_bike = User::find(3)->bike;
+        // $user_3_bike = User::find(3)->bike;
         $user_1_name = Bike::find(1)->user;
         $user_2_name = Bike::find(2)->user;
         //dd($user_2_bike);

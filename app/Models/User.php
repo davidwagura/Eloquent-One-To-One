@@ -47,6 +47,6 @@ class User extends Authenticatable
 
     public function bike()
     {
-        return $this->hasone('App\Models\Bikes');
+        return $this->hasone('App\Models\Bike');
     }
 }
