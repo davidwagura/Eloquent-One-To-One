@@ -28,10 +28,10 @@
             </li>
         @endforeach
 
-        <p> User_1 ({{ $user_1_name->name }}) has {{ $user_1_bike->bike_name }} </p>
+        {{-- <p> User_1 ({{ $user_1_name->name }}) has {{ $user_1_bike->bike_name }} </p>
 
         <p> User_3 ({{ $user_2_name->name }}) has {{ $user_3_bike->bike_name }} </p>
-
+ --}}
 
     </body>
 </html>

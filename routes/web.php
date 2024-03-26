@@ -6,4 +6,13 @@ use App\Http\Controllers\BikesController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/',[BikesController::class, 'usersWithBike']);
+
+
+Route::get('/', function() {
+
+    $users = User::all();
+    $allbikes = Bike::all();
+    
+    return view('welcome');
+});
+Route::get('/users',[BikesController::class, 'usersWithBike']);
